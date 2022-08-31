@@ -1,0 +1,13 @@
+header {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+  background-color: rgb(27, 117, 196);
+  border: 1px solid white;
+
+  margin-bottom: 20px;
+}
+h1 {
+  text-align: center;
+  color: white;
+}

@@ -1,51 +1,11 @@
+@import url(components/header.css);
+@import url(components/quiz-card.css);
+@import url(components/navbar.css);
+
 * {
   font-family: "Times New Roman", Times, serif;
-  font-size: 19px;
-  color: black;
 }
 
-div {
-  display: flex;
-  border: 3px solid black;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header {
-  display: flex;
-  border: 4px solid grey;
-  justify-content: center;
-  background-color: lightgray;
-}
-
-h1 {
-  color: red;
-}
-
-.item1 {
-  display: flex;
-  justify-content: space-between;
-}
-.item1 h3 {
-  display: flex;
-}
-
-.nav {
-  display: flex;
-  flex-direction: row;
-  color: #000;
-  background-color: rgba(211, 211, 211, 0.2);
-}
-
-.nav a {
-  color: green;
-}
-
-a:hover {
-  background-color: #de420d;
-  user-select: none;
-}
-a:active {
-  background-color: red;
+body {
+  background-color: rgb(196, 143, 27);
 }
