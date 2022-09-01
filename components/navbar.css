@@ -1,8 +1,8 @@
 .navbar {
   display: flex;
   width: 100%;
-  border: 1px solid black;
-  border-radius: 0px;
+  border: 1px solid white;
+  border-radius: 5px;
   position: fixed;
   bottom: 0px;
   align-items: center;
@@ -14,4 +14,5 @@
 .navbar__navitem {
   width: 25px;
   padding: 15px;
+  fill: red;
 }

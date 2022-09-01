@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script
-      src="https://kit.fontawesome.com/cd9fc1a53d.js"
-      crossorigin="anonymous"
-    ></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,55 +8,44 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="header">
-      <h1>bookmarks</h1>
+    <header>
+      <h1>Bookmarks</h1>
     </header>
-    <div>
-      <section class="item1">
-        <h3>item1</h3>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
-          nemo deleniti aspernatur sed, ipsam sequi dolor deserunt porro
-          doloribus numquam nisi provident odio non laudantium. Nisi
-          exercitationem impedit hic blanditiis! Enim, a asperiores laboriosam
-          laudantium labore nobis corrupti. Voluptatum consectetur commodi vitae
-          neque repellat ab ipsam excepturi temporibus saepe, autem mollitia eum
-          nostrum corrupti quaerat aliquam eligendi tempore, soluta alias.
-        </p>
-      </section>
 
-      <section class="item2">
-        <h3>item2</h3>
-      </section>
-
-      <section class="item3">
-        <h3>item3</h3>
-      </section>
-      <button>show Answer</button>
-    </div>
     <main>
-      <div>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et neque
-          recusandae porro eius aliquid ab similique quae, nobis, voluptatibus
-          quo atque repellat. Quaerat distinctio quasi aliquam iste saepe eum
-          maxime.
-        </p>
+      <article class="quiz-card">
+        <h3>question</h3>
+        <p class="quiz-card__question">
+          Welcher Befehl ruft den Status von Git in der Shell ab?</p>
+        <button class="quiz-card__question--button">show Answer</button>
 
-        <p></p>
-      </div>
+          <h3>question 2</h3>
+        <p class="quiz-card__question2">
+          Welcher Befehl ruft den Status von Git in der Shell ab?</p>
+        <button class="quiz-card__question--button">hide Answer</button>
+          <p class="quiz-card__answer">Der Befehl ist Git Status.</p>
+
+
+        </div>
+      </article>
     </main>
-    <div class="nav">
-      <span>
-        <a href="./index.html"><i class="fa-solid fa-house"></i> Home</a>
+    <div class="navbar">
+      <span class="navbar__navitem">
+        <a href="./index.html" aria-label="go to Startpage"
+          ><img src="./images/house-solid.svg"
+        /></a>
       </span>
-      <span>
-        <a href="./bookmarks.html"
-          ><i class="fa-solid fa-bookmark"></i> Bookmark</a
-        >
+
+      <span class="navbar__navitem">
+        <a href="./bookmarks.html" aria-label="change page to Bookmark"
+          ><img src="./images/bookmark-regular.svg"
+        /></a>
       </span>
-      <span>
-        <a href="./profile.html"><i class="fa-regular fa-user"></i> Profil</a>
+
+      <span class="navbar__navitem">
+        <a href="./profile.html" aria-label="change Page to Profil"
+          ><img src="./images/user-regular.svg"
+        /></a>
       </span>
     </div>
   </body>
