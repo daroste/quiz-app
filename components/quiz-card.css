@@ -55,3 +55,9 @@ h4 {
   justify-items: center;
   justify-content: center;
 }
+
+.bookmark_on_page {
+  height: 30px;
+  width: auto;
+  position: fixed;¥¥
+}
