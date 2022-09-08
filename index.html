@@ -6,35 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    
+    <script src="index.js" defer></script>
   </head>
   <body>
     <header>
       <h1>Quiz-App</h1>
     </header>
-
     <main>
       <article class="quiz-card">
         <h4>question</h4>
-        <img class="bookmark_on_page"src="./images/bookmark-regular.svg">
+        <img class="bookmark_on_page" src="./images/bookmark-regular.svg" />
         <p class="quiz-card__question">
-          Welcher Befehl ruft den Status von Git in der Shell ab?</p>
-        <button aria-label="show answer button" class="quiz-card__question--button">show Answer</button>
+          Welcher Befehl ruft den Status von Git in der Shell ab?
+        </p>
+        <button class="button" onclick="myFunction()">show Answer</button>
 
-          <h4>question 2</h4>
-        <p class="quiz-card__question2">
-          Welcher Befehl ruft den Status von Git in der Shell ab?</p>
-        <button class="quiz-card__question--button">hide Answer</button>
-          <p class="quiz-card__answer">Der Befehl ist Git Status.</p>
+        <div id="myanswer"><p>Der Befehl ist git status</p></div>
+      </article>
+      <article class="quiz-card">
+        <h4>question</h4>
+        <img
+          filling:red
+          class="bookmark_on_page"
+          src="./images/bookmark-solid.svg"
+        />
+        <p class="quiz-card__question">
+          Welcher Befehl ruft den Status von Git in der Shell ab?
+        </p>
+        <button class="button" onclick="myFunction2()">show Answer</button>
 
-
-        </div>
+        <div id="myanswer2"><p>Der Befehl ist git status</p></div>
       </article>
     </main>
     <div class="navbar">
       <span class="navbar__navitem">
         <a href="./index.html" aria-label="go to Startpage"
           ><img src="./images/house-solid.svg"
+        /></a>
+      </span>
+
+      <span class="navbar__navitem">
+        <a href="./create_card.html" aria-label="create new card"
+          ><img src="./images/plus.svg"
         /></a>
       </span>
 
@@ -50,6 +63,5 @@
         /></a>
       </span>
     </div>
-    <script src="index.js" defer></script>
   </body>
 </html>

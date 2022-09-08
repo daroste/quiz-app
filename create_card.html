@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>create new card</h1>
+    </header>
+
+    <main>
+      <article class="new_card">
+        <h4>Create new card</h4>
+        <form class="quiz-card__question" data-js="form">
+            <fieldset>
+                <legend>Create new Card</legend>
+                  <label for="Question">Question</label>
+                  <input
+                    type="text"
+                    name="Question"
+                    id="Question"
+                    placeholder="Hier bitte die Frage eintragen."
+                    size="100"
+                    required
+                    maxlength="150"
+                  />
+                  <label for="Answer">Answer</label>
+                  <input
+                    type="text"
+                    name="Answer"
+                    id="Answer"
+                    required
+                    size="100"
+                    maxlength="150"
+                    placeholder="Hier dann bitte die Antwort."
+                  />
+                  <button class="form_button" type="submit">Submit</button>
+                  <button class="form_button" type="reset">Reset</button>
+                </form>
+              </fieldset>
+        </form>
+        
+      </article>
+    </main>
+    <div class="navbar">
+      <span class="navbar__navitem">
+        <a href="./index.html" aria-label="go to Startpage"
+          ><img src="./images/house-solid.svg"
+        /></a>
+      </span>
+
+      <span class="navbar__navitem">
+        <a href="./create_card.html" aria-label="create new card"
+          ><img src="./images/plus.svg"
+        /></a>
+      </span>
+
+      <span class="navbar__navitem">
+        <a href="./bookmarks.html" aria-label="change page to Bookmark"
+          ><img src="./images/bookmark-regular.svg"
+        /></a>
+      </span>
+
+      <span class="navbar__navitem">
+        <a href="./profile.html" aria-label="change Page to Profil"
+          ><img src="./images/user-regular.svg"
+        /></a>
+      </span>
+    </div>
+  </body>
+</html>

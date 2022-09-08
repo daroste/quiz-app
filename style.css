@@ -2,13 +2,14 @@
 @import url(components/quiz-card.css);
 @import url(components/navbar.css);
 @import url(/components/profil.css);
+@import url(/components/create_card.css);
 
 * {
   font-family: "Times New Roman", Times, serif;
 }
 
 body {
-  background-color: rgb(196, 143, 27);
+  background-color: rgb(250, 250, 250);
 }
 /* clicker-script-regular - latin */
 @font-face {

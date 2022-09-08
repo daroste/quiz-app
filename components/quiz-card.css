@@ -1,14 +1,15 @@
 .quiz-card {
   display: flex;
   position: relative;
-  height: 450px;
-  top: 48px;
+  height: 300px;
+  top: 25px;
   flex-direction: column;
   align-items: center;
-  border: 1px solid white;
+  border: 1px solid orange;
+  color: white;
   border-radius: 5px;
   margin-top: 8px;
-  margin-bottom: 8px;
+  margin-bottom: 15px;
   background-color: rgb(27, 117, 196);
 }
 
@@ -19,28 +20,33 @@ h4 {
 }
 .quiz-card__question {
   align-items: center;
-  height: 250px;
+  height: 10px;
   text-align: center;
   position: relative;
   margin: auto;
   padding: 30px;
   margin-top: 10px;
-  border: 1px solid white;
-  border-radius: 5px;
+  color: white;
 }
 
-.quiz-card__question2 {
+.button {
+  background-color: white;
+  color: black;
   align-items: center;
-  height: 250px;
   text-align: center;
-  position: relative;
-  margin: auto;
-  padding: 30px;
-  border: 1px solid white;
-  border-radius: 5px;
+  width: 20%;
+  border: 1px solid orange;
+  border-radius: 2px;
+  padding: 5;
+  transition: 1s ease-in-out;
 }
 
-.quiz-card__question--button {
+.button:hover {
+  background-color: black;
+  color: greenyellow;
+}
+
+.quiz-card__question--hide {
   background-color: white;
   color: black;
   align-items: center;
@@ -51,7 +57,6 @@ h4 {
   border-radius: 5px;
   padding: 0;
 }
-
 .quiz-card__answer {
   text-align: center;
   justify-items: center;
@@ -61,7 +66,20 @@ h4 {
 .bookmark_on_page {
   height: 20px;
   width: auto;
-  position: fixed;
-  top: 145px;
+  position: absolute;
+  top: 0px;
   right: 30px;
+  background-color: greenyellow;
+  transition: 0, 4s ease;
+}
+
+.bookmark_on_page2 {
+  height: 20px;
+  width: auto;
+  position: absolute;
+  top: 0px;
+  right: 30px;
+}
+.bookmark_on_page2:hover {
+  background-color: chartreuse;
 }
