@@ -41,6 +41,8 @@ h4 {
 }
 
 .quiz-card__question--button {
+  background-color: white;
+  color: black;
   align-items: center;
   text-align: center;
   width: 0%;
@@ -57,7 +59,9 @@ h4 {
 }
 
 .bookmark_on_page {
-  height: 30px;
+  height: 20px;
   width: auto;
-  position: fixed;¥¥
+  position: fixed;
+  top: 145px;
+  right: 30px;
 }

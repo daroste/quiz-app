@@ -1,1 +1,3 @@
-console.log(Guten Morgen);
+function hello() {
+  alert(Hello);
+}
