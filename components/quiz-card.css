@@ -1,6 +1,6 @@
 .quiz-card {
   display: flex;
-  position: relative;
+  position: static;
   height: 300px;
   top: 25px;
   flex-direction: column;
@@ -11,6 +11,7 @@
   margin-top: 8px;
   margin-bottom: 15px;
   background-color: rgb(27, 117, 196);
+  visibility: visible;
 }
 
 h4 {
@@ -57,10 +58,11 @@ h4 {
   border-radius: 5px;
   padding: 0;
 }
-.quiz-card__answer {
+#quiz-card__answer {
   text-align: center;
   justify-items: center;
   justify-content: center;
+  visibility: hidden;
 }
 
 .bookmark_on_page {
@@ -82,4 +84,23 @@ h4 {
 }
 .bookmark_on_page2:hover {
   background-color: chartreuse;
+}
+.star {
+  height: 20px;
+  width: auto;
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  color: rgb(255, 255, 255);
+  transition: 0, 4s ease;
+}
+
+.star2 {
+  height: 20px;
+  width: auto;
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  color: rgb(255, 255, 255);
+  transition: 0, 4s ease;
 }

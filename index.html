@@ -4,9 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Quiz-App</title>
     <link rel="stylesheet" href="style.css" />
     <script src="index.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/cd9fc1a53d.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -15,7 +19,9 @@
     <main>
       <article class="quiz-card">
         <h4>question</h4>
-        <img class="bookmark_on_page" src="./images/bookmark-regular.svg" />
+        <div class="star">
+          <i class="fa-regular fa-bookmark"></i>
+        </div>
         <p class="quiz-card__question">
           Welcher Befehl ruft den Status von Git in der Shell ab?
         </p>
@@ -25,11 +31,9 @@
       </article>
       <article class="quiz-card">
         <h4>question</h4>
-        <img
-          filling:red
-          class="bookmark_on_page"
-          src="./images/bookmark-solid.svg"
-        />
+        <div class="star2">
+          <i class="fa-solid fa-bookmark"></i>
+        </div>
         <p class="quiz-card__question">
           Welcher Befehl ruft den Status von Git in der Shell ab?
         </p>
@@ -40,27 +44,25 @@
     </main>
     <div class="navbar">
       <span class="navbar__navitem">
-        <a href="./index.html" aria-label="go to Startpage"
-          ><img src="./images/house-solid.svg"
-        /></a>
+        <a href="./index.html" aria-label="Startpage"
+          ><i class="navbar__navitem fa-solid fa-house-user"></i>
+        </a>
       </span>
-
       <span class="navbar__navitem">
         <a href="./create_card.html" aria-label="create new card"
-          ><img src="./images/plus.svg"
-        /></a>
+          ><i class="navbar__navitem fa-solid fa-circle-plus"></i>
+        </a>
       </span>
-
       <span class="navbar__navitem">
         <a href="./bookmarks.html" aria-label="change page to Bookmark"
-          ><img src="./images/bookmark-regular.svg"
-        /></a>
+          ><i class="navbar__navitem fa-regular fa-bookmark"></i>
+        </a>
       </span>
 
       <span class="navbar__navitem">
         <a href="./profile.html" aria-label="change Page to Profil"
-          ><img src="./images/user-regular.svg"
-        /></a>
+          ><i class="navbar__navitem fa-regular fa-user"></i>
+        </a>
       </span>
     </div>
   </body>

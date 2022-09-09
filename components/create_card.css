@@ -1,7 +1,6 @@
 .new_card {
-  background-color: aquamarine;
   display: flex;
-  position: relative;
+  position: absolute;
   height: 450px;
   top: 25px;
   flex-direction: column;

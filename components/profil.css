@@ -1,4 +1,5 @@
 .img_profil {
+  display: flex;
   object-position: center;
   height: 200px;
   border: 1px solid white;

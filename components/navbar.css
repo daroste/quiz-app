@@ -12,9 +12,36 @@
 }
 
 .navbar__navitem {
-  width: 25px;
+  width: 50px;
+  font-size: 35px;
   padding: 15px;
-  color: crimson;
+  color: rgb(249, 249, 249);
   fill: greenyellow;
+  transition: 2s ease;
+}
+
+.navbar__navitem:hover {
+  color: red;
+}
+.navbar__navitem:active {
+  color: red;
+}
+.star {
+  height: 20px;
+  width: auto;
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  color: rgb(255, 255, 255);
+  transition: 0, 4s ease;
+}
+
+.star2 {
+  height: 20px;
+  width: auto;
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  color: rgb(255, 255, 255);
   transition: 0, 4s ease;
 }
