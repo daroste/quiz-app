@@ -64,43 +64,28 @@ h4 {
   justify-content: center;
   visibility: hidden;
 }
-
-.bookmark_on_page {
-  height: 20px;
-  width: auto;
+.bookmark1 {
+  height: 15px;
+  width: 15px;
   position: absolute;
-  top: 0px;
+  fill: white;
+  top: 110px;
   right: 30px;
-  background-color: greenyellow;
-  transition: 0, 4s ease;
+  transition: 1s ease-in-out;
 }
 
-.bookmark_on_page2 {
-  height: 20px;
-  width: auto;
-  position: absolute;
-  top: 0px;
-  right: 30px;
+.bookmark1:hover {
+  fill: red;
 }
-.bookmark_on_page2:hover {
-  background-color: chartreuse;
-}
-.star {
-  height: 20px;
-  width: auto;
+.bookmark2 {
+  height: 15px;
+  width: 15px;
   position: absolute;
-  top: 0px;
+  fill: white;
+  top: 425px;
   right: 30px;
-  color: rgb(255, 255, 255);
-  transition: 0, 4s ease;
+  transition: 1s ease-in-out;
 }
-
-.star2 {
-  height: 20px;
-  width: auto;
-  position: absolute;
-  top: 0px;
-  right: 30px;
-  color: rgb(255, 255, 255);
-  transition: 0, 4s ease;
+.bookmark2:hover {
+  fill: red;
 }
